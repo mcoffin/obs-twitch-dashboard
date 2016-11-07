@@ -1,0 +1,10 @@
+[package]
+name = "obs"
+version = "0.16.4"
+authors = ["Matt Coffin <mcoffin13@gmail.com>"]
+
+[dependencies]
+libc = "*"
+
+[dependencies.obs-sys]
+path = "./obs-sys"

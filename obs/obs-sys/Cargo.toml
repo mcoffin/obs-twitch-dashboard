@@ -1,0 +1,11 @@
+[package]
+name = "obs-sys"
+version = "0.16.4"
+authors = ["Matt Coffin <mcoffin13@gmail.com>"]
+build = "build.rs"
+
+[dependencies]
+libc = "*"
+
+[build-dependencies]
+pkg-config = "^0.3"

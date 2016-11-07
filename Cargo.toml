@@ -1,0 +1,25 @@
+[package]
+name = "obs-twitch-dashboard"
+version = "0.1.0"
+authors = ["Matt Coffin <mcoffin13@gmail.com>"]
+
+[lib]
+name = "obs_twitch_dashboard"
+crate-type = ["dylib"]
+
+[dependencies.obs]
+path = "./obs"
+
+[dependencies.obs-sys]
+path = "./obs/obs-sys"
+
+[dependencies]
+libc = "*"
+url = "^1.2"
+open = "^1.1"
+hyper = "^0.9"
+serde = "^0.8"
+serde_json = "^0.8"
+serde_derive = "^0.8"
+log = "^0.3"
+env_logger = "^0.3"
